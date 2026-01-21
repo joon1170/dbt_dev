@@ -1,0 +1,9 @@
+sources:
+  - name: demo # Logical name for the source (e.g., your data lake/warehouse)
+    database: demo # The actual database name in your warehouse
+    schema: demo_schema # The schema containing the raw tables
+    tables:
+      - name: bike # Table name in the schema
+        description: "NYC bike data"
+      - name: weather
+        description: "Weather data"
